@@ -33,6 +33,12 @@ PHP 참고 : [PHP: The Right Way (modernpug.github.io)](https://modernpug.github
 4. 라라벨 실행  
 	```php artisan serve```
 
+※ 주의사항
+composer가 설치시 php 버전에 dependency을 가지게 되는 듯
+php 버전을 고정하고 사용하는게 오류가 안생길것 같다.
+nvs처럼 php도 막 바꿀 수 있는줄 알았는데 그건 또 아닌가?
+composer자체의 문제이기 보단 `composer create-project`를 하면 node처럼 지금 실행중인 버전으로 composer.json이 생성되서 안되나? 
+
 <br/>
 
 ### 2. Docker를 통한 설치
