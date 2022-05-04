@@ -14,7 +14,7 @@ PHP 참고 : [PHP: The Right Way (modernpug.github.io)](https://modernpug.github
 
 ### 1. Composer를 통한 설치
 
-- 로컬개발서버가 됨 (배포용은 아닌듯 배포시에는 서버에 도커나 NginX 위에 올려서 해야 하지 않을까)
+- 로컬개발서버가 됨 (배포용은 아닌듯 배포시에는 서버에 Docker나 NginX 위에 올려서 해야 하지 않을까)
 
 1. [PHP 설치](https://windows.php.net/download#php-8.1) (zip 파일로)  
    - JAVA_HOME 처럼 PHP 환경변수도 설정해야하나봄  
@@ -43,9 +43,10 @@ PHP 참고 : [PHP: The Right Way (modernpug.github.io)](https://modernpug.github
 ### 3. [Starter Kits : Breeze, Jetstream](https://laravel.com/docs/9.x/starter-kits)
 
 #### 1. Breeze
-		1. 설치 
-		`composer require laravel/breeze --dev`
-		- 설치가 안될 수 있음 -> `composer config -g -- disable-tls true` (안전하지 않아서 서버에 비추천한다고함...)
+
+1. 설치 
+`composer require laravel/breeze --dev`
+	- 설치가 안될 수 있음 -> `composer config -g -- disable-tls true` (안전하지 않아서 서버에 비추천한다고함...)
 
 
 #### 2. Jetstream
@@ -54,5 +55,3 @@ PHP 참고 : [PHP: The Right Way (modernpug.github.io)](https://modernpug.github
 
 
 왤케 진행할수록 찝찝하냐
-"# laravelStudy" 
-"# laravelStudy" 
